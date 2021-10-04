@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Guess The Nubmer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="customStyles.css" />
+
+</head>
+
+<body class="bg-dark">
+    <div class="p-1 container bg-secondary mt-5 text-center">
+        <div class="mt-5 jumbotron my-auto">
+            <h3>*** Guess The Number ***</h3>
+        </div>
+        <p style="font-size: 1.4rem;">Guess the number between 0 and 10:</p>
+        <div class="mb-5">
+            <input id="numInput" type="text" /> <br><br>
+            <button id="checkBtn" class="btn-md btn-primary">CHECK</button><br><br>
+            <label id="checkLbl" style="border-radius: 0.5rem; padding: 0.5rem;" class="bg-info ">Enter a
+                number.</label>
+        </div>
+        <div id="guessRemained">5 Geusses Remaining</div>
+        <span id="trueOrFlase" class="badge bg-info">Welcome</span>
+        <br><br>
+        <button id="reloadBtn" class="btn-sm btn-info">RESTART GAME</button>
+    </div>
+</body>
+
+</html>
